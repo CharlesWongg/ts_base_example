@@ -12,7 +12,7 @@ class routes extends React.Component{
 					<Suspense fallback={<div>Loading...</div>}>
 						<Switch>
 							<Route exact path="/" component={Demo}></Route>
-                            <Route exact path="/test" component={Test}></Route>
+                            <Route path="/test" component={Test}></Route>
 						</Switch>
 					</Suspense>
 				</Router>
